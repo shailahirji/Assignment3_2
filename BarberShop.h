@@ -52,7 +52,7 @@ void BarberShop::addCustomer(Customer &customer) {
 
     //s1 is ALWAYS empty at the start of every execution of this function
 
-    //no customer exists
+    //no customers waiting in line, first customer gets added to an empty stack 
     if (s2.isEmpty()) {
         s2.push(customer);
 
